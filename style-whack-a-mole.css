@@ -1,0 +1,60 @@
+html {
+    font-family: Futura;
+    background-color: rgb(1, 137, 63);
+}
+
+.container {
+    margin: auto;
+}
+
+button {
+    background-color: transparent;
+    border: solid;
+    border-width: 2px 2px 2px 2px;
+    padding: 10px 10px 10px 10px;
+    border-color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin:0 auto;
+    display: block;
+}
+
+#box{
+    width: 500px;
+    height: 630px;
+    background-color: rgb(1, 137, 63);
+    padding: 15px 15px 15px 15px;
+}
+
+#title {
+    text-align: left;
+    font-size: 40px;
+    justify-content: space-between;
+    padding: 0px 50px;
+    display: flex;
+}
+
+#number {
+    text-align: left;
+    font-size: 40px;
+    justify-content: space-between;
+    padding: 0px 70px;
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+#grid-c {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    margin:0 auto;
+  }
+
+.hole {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url('hole.png');
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
